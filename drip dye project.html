@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>DripDye</title>
+    <link rel="stylesheet" href="dd.css">
+    
+
+</head>
+<body>
+    <header id="navbar">
+        <a href="forum.html"><b>FORUM</b></a>
+        <a href="product.html"><b>SHOP</b></a>
+        <a href="#textt"><b>ABOUT</b></a>
+        <a href="javascript:void(0)"><b>HOME</b></a>
+        <h1>DRIP DYE</h1>
+        
+    </header>
+    
+    <div class="slideshow" >
+        <img class="img" src="d11.jpg" height="700px" >
+        <img class="img" src="d22.jpg" height="700px" >
+        <img class="img" src="d33.jpg" height="700px" >
+        <img class="img" src="d44.jpg" height="700px" >
+    </div>
+        
+    <script>
+    var myIndex = 0;
+    carousel();
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("img");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+    </script>
+    <script type="text/javascript">
+        window.addEventListener("scroll",function(){
+            var header=document.querySelector("header");
+            header.classList.toggle("sticky",window.scrollY>0)
+
+        })
+
+    </script>
+    <div class="text" id="textt">
+        <h2 class="head"> ABOUT</h2>
+        <p class="jk">A while ago,we came across an article about fast fashion brands like H&M and Zara, and how their production and durability
+            have been harming the environment consistently.<br>
+            <sec class="sudo1">
+                Which is when we decided to open Drip Dye.Our aim is to provide good quality fashion, which is not only sustainable but also, affordable.<br>
+            </sec>
+            
+            <sec class="sudo2">
+                All of our products are designed with love, care and attention to detail.They are made from natural fibres, and not synthetic.<br>
+            </sec>
+
+        </p>
+
+    </div>
+    <img src="dd project.jpeg" class="logo">
+    <div class="gh">
+        <h1 class="aa">NOW ON SALE</h1>
+        <h2 class="ab">UPTO 50%</h2>
+    </div>
+    <div class="sec">
+        <div class="modal1">
+            <img class="s1" src="p2.jpeg">
+            <h1 class="a">PRODUCT NAME</h1>    
+        </div>
+        <div class="modal2">
+            <img class="s2" src="p3.jpeg">
+            <h1 class="b">PRODUCT NAME</h1>    
+        </div>
+        <div class="modal3">
+            <img class="s3" src="p2.jpeg">
+            <h1 class="c">PRODUCT NAME</h1>    
+        </div>
+    </div>
+    <img src="p4.jpeg" class="arrival">
+    <div class="fresh">
+        <p>
+            <h1>NEW ARRIVALS</h1>
+            <a class="f" href="#"><h1>SHOP NOW</h1></a>
+        </p>
+    </div>
+    
+
+    
+
+
+    
+   
+    
+    
+ 
+    <video class="v" controls>
+        <source src="vid.mp4" type="video/mp4">
+    </video>
+      
+    <div class="sidebar">
+        <a href="https://instagram.com/_drip.dye?igshid=1x3xiey7asooo" target="blank"><img src="insta link.png"><br>
+        <a href="mailto:dripdye.orders@gmail.com" target="blank"></a><img src="gmail link.png">
+    </div>
+        
+    
+    
+    <footer>
+        
+        <ul>
+            <li><a href="#"><img src="top arrow.png" class="arrow"></a></li>
+            <li><a href="TC.html"><b>TERMS AND CONDITIONS</b></a></li>
+            <li><a href="FAQ.html"><b>FAQ</b></a></li>
+        </ul>
+            
+      
+    </footer>
+</body>
+</html> 

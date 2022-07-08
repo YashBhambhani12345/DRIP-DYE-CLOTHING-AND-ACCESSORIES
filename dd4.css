@@ -1,0 +1,159 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	height: 65px;
+	background-image: url("dd project1.jpg") ;
+}
+
+#navbar {
+	overflow: hidden;
+}
+  
+#navbar a {
+	display: block;
+	float: right;
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+	padding-top: 25px;
+}
+  
+   
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+  
+.sticky + .content {
+	padding-top: 60px;
+}
+#navbar h1{
+	padding-left: 10px;
+	padding-top: -60px;
+}
+#navbar a:hover{
+	color: rgb(253, 252, 250);
+}
+.sidebar{
+	display: block;
+	position: fixed;
+	width: 100px;
+	height: 200px;
+	bottom: 100px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	background-image: url("dd project.jpeg");
+	right: 1px;
+	opacity: 0.8;
+}
+.sidebar img{
+	height: 42px;
+	width: 42px;
+	margin-top:30px;
+    cursor: pointer;
+}
+.insta{
+    height: 25px;
+    width: 25px;
+}
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-image: url("dd project1.jpg");
+   
+}
+ 
+li {
+   padding-right: 50px;
+   float: right;
+
+}
+ 
+li a {
+   display: block;
+   color: black;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+ul li a:hover{
+   color: white;
+}
+.arrow{
+    height: 42px;
+    width: 42px;
+}
+.modal1{
+	display: block;
+	width: 25%;
+	height: 300px;
+	border: 2px solid black;
+	margin-top: 50px;
+	margin-left: 120px;
+}
+.modal2{
+	display: block;
+	width: 25%;
+	height: 300px;
+	border: 2px solid black;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+.modal3{
+	display: block;
+	width: 25%;
+	height: 300px;
+	border: 2px solid black;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+.modal1,.modal2,.modal3{
+	float: left;
+}
+.sec::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+.modal4{
+	display: block;
+	width: 25%;
+	height: 300px;
+	border: 2px solid black;
+	margin-top: 50px;
+	margin-left: 120px;
+	margin-bottom: 40px;
+}
+.modal5{
+	display: block;
+	width: 25%;
+	height: 300px;
+	border: 2px solid black;
+	margin-top: 50px;
+	margin-left: 20px;
+	margin-bottom: 40px;
+}
+.modal6{
+	display: block;
+	width: 25%;
+	height: 300px;
+	border: 2px solid black;
+	margin-top: 50px;
+	margin-left: 20px;
+	margin-bottom: 40px;
+}
+.modal4,.modal5,.modal6{
+	float: left;
+}
+.modal1 p{
+	margin-top: 50px;
+}
+.modal1 h3{
+	margin-top: 20px;
+}

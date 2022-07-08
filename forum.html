@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORUM</title>
+    <link rel="stylesheet" href="dd4.css">
+</head>
+<body>
+    <header id="navbar">
+        <a href="forum.html"><b>FORUM</b></a>
+        <a href="product.html"><b>SHOP</b></a>
+        <a href="drip dye project.html"><b>HOME</b></a>
+        <h1>DRIP DYE</h1>
+        
+    </header>
+    
+    
+    <script>
+    var myIndex = 0;
+    carousel();
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("img");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+    </script>
+    <script type="text/javascript">
+    window.addEventListener("scroll",function(){
+        var header=document.querySelector("header");
+        header.classList.toggle("sticky",window.scrollY>0)})
+
+    </script>
+    <div class="sidebar">
+        <a href="https://instagram.com/_drip.dye?igshid=1x3xiey7asooo"><img src="insta link.png"><br></a>
+        <img src="gmail link.png">
+    </div>
+
+    <div class="sec">
+        <div class="modal1">
+            <h2>MRINAL BHAT</h2>
+            <p>
+                
+                <b>HEY THE MASK IS REALLY COOL AND I LOVE THEM. 
+                THEY LOOK AESHTETIC AND MATCH MY VIBE, KEEP UP THE GOOD WORK.<br></b>
+                <h3>4/12/2020</h3>
+            </p>     
+        </div>
+        <div class="modal2">    
+        </div>
+        <div class="modal3">   
+        </div>
+    </div>
+    <div class="sec">
+        <div class="modal4">
+              
+        </div>
+        <div class="modal5"> 
+        </div>
+        <div class="modal6">    
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li><a href="#"><img src="top arrow.png" class="arrow"></a></li>
+            <li><a href="TC.html"><b>TERMS AND CONDITIONS</b></a></li>
+            <li><a href="FAQ.html"><b>FAQ</b></a></li>
+        </ul>
+            
+      
+    </footer>
+    
+</body>
+</html>
